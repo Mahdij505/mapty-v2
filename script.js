@@ -358,7 +358,7 @@ class App {
 
   _getLocalStorage() {
     const data = JSON.parse(localStorage.getItem('workouts'));
-    if (!data.length) return;
+    if (!data) return;
 
     this.#workouts = data.map(this._recreateLocalStorageObj.bind(this));
 
