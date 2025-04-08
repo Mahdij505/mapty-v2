@@ -366,7 +366,7 @@ class App {
       this._renderWorkout(el);
     });
 
-    this._showRemoveAll();
+    if(!data.length){this._showRemoveAll();}
   }
 
   _setConstants(mainObj, resultObj) {
