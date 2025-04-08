@@ -12,4 +12,4 @@ In version 2, the app introduces several new features to improve usability and c
 
 Each workout displays stats like distance, duration, pace (for running), or speed (for cycling), helping users track their fitness progress visually and interactively.
 
-🔗 [Live Demo](mapty-v2.pages.dev)
+🔗 [Live Demo](https://mapty-v2.pages.dev/)
